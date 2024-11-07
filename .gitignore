@@ -1,0 +1,29 @@
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore Python cache files and compiled bytecode
+__pycache__/
+*.pyc
+
+# Ignore environment and dependency files
+myenv/
+*.bin
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore database files
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore static/media files (optional, if generated during development)
+staticfiles/
+media/
+
+# Ignore user-specific config and environment files
+AppData/
+*.env
